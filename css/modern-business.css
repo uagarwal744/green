@@ -1,0 +1,143 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+@font-face {
+    font-family: 'Gabriela';
+    src:url('../fonts/Gabriela-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Barkentina';
+    src:url('../fonts/Barkentina.otf');
+}
+
+@font-face {
+    font-family: 'GLYPHICONS halflings regular';
+    src:url('../fonts/glyphicons-halflings-regular.ttf');
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #8DAA91;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
+
+
+
+h1,h2,h3
+{
+    font-family: 'Barkentina';
+    color: #46351D;
+    font-weight: bolder;
+}
+
+h1
+{
+    font-size: 4em;
+}
+
+h2
+{
+    font-size:2.8em;
+}
+
+p{
+    font-size: 1.5em;
+    font-family: 'Gabriela';
+    font-weight: 500;
+}
+li.support{
+    font-family: 'GLYPHICONS halflings regular';
+    font-size: 1.7em;
+    word-spacing: -12px;
+    text-align: left;
+}
+a:hover{
+    text-decoration: none;
+}
